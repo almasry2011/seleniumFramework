@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="17" passed="16">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="71140" started-at="2019-02-26T10:57:36Z" finished-at="2019-02-26T10:58:47Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="71140" started-at="2019-02-26T10:57:36Z" finished-at="2019-02-26T10:58:47Z">
+      <class name="tests.DDT.UserRegistrationTestWithDDTAND_DataProvider">
+        <test-method status="PASS" signature="startDriver(java.lang.String)[pri:0, instance:tests.DDT.UserRegistrationTestWithDDTAND_DataProvider@6a41eaa2]" name="startDriver" is-config="true" duration-ms="6293" started-at="2019-02-26T10:57:30Z" finished-at="2019-02-26T10:57:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method status="PASS" signature="userCanRegisterSuccessfully(java.lang.String, java.lang.String)[pri:1, instance:tests.DDT.UserRegistrationTestWithDDTAND_DataProvider@6a41eaa2]" name="userCanRegisterSuccessfully" duration-ms="5123" started-at="2019-02-26T10:57:36Z" data-provider="testData" finished-at="2019-02-26T10:57:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[amr901041002@gm.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[amr123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userCanRegisterSuccessfully -->
+        <test-method status="PASS" signature="test(org.testng.ITestResult)[pri:0, instance:tests.DDT.UserRegistrationTestWithDDTAND_DataProvider@6a41eaa2]" name="test" is-config="true" duration-ms="1" started-at="2019-02-26T10:57:41Z" finished-at="2019-02-26T10:57:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=userCanRegisterSuccessfully status=SUCCESS method=UserRegistrationTestWithDDTAND_DataProvider.userCanRegisterSuccessfully(java.lang.String, java.lang.String)[pri:1, instance:tests.DDT.UserRegistrationTestWithDDTAND_DataProvider@6a41eaa2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="userCanRegisterSuccessfully(java.lang.String, java.lang.String)[pri:1, instance:tests.DDT.UserRegistrationTestWithDDTAND_DataProvider@6a41eaa2]" name="userCanRegisterSuccessfully" duration-ms="11773" started-at="2019-02-26T10:57:41Z" data-provider="testData" finished-at="2019-02-26T10:57:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[amr29191023@gm.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[amr123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userCanRegisterSuccessfully -->
+        <test-method status="PASS" signature="test(org.testng.ITestResult)[pri:0, instance:tests.DDT.UserRegistrationTestWithDDTAND_DataProvider@6a41eaa2]" name="test" is-config="true" duration-ms="0" started-at="2019-02-26T10:57:53Z" finished-at="2019-02-26T10:57:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=userCanRegisterSuccessfully status=SUCCESS method=UserRegistrationTestWithDDTAND_DataProvider.userCanRegisterSuccessfully(java.lang.String, java.lang.String)[pri:1, instance:tests.DDT.UserRegistrationTestWithDDTAND_DataProvider@6a41eaa2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="userCanRegisterSuccessfully(java.lang.String, java.lang.String)[pri:1, instance:tests.DDT.UserRegistrationTestWithDDTAND_DataProvider@6a41eaa2]" name="userCanRegisterSuccessfully" duration-ms="4094" started-at="2019-02-26T10:57:53Z" data-provider="testData" finished-at="2019-02-26T10:57:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[amr22919022@gm.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[amr123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userCanRegisterSuccessfully -->
+        <test-method status="PASS" signature="test(org.testng.ITestResult)[pri:0, instance:tests.DDT.UserRegistrationTestWithDDTAND_DataProvider@6a41eaa2]" name="test" is-config="true" duration-ms="0" started-at="2019-02-26T10:57:57Z" finished-at="2019-02-26T10:57:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=userCanRegisterSuccessfully status=SUCCESS method=UserRegistrationTestWithDDTAND_DataProvider.userCanRegisterSuccessfully(java.lang.String, java.lang.String)[pri:1, instance:tests.DDT.UserRegistrationTestWithDDTAND_DataProvider@6a41eaa2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="userCanRegisterSuccessfully(java.lang.String, java.lang.String)[pri:1, instance:tests.DDT.UserRegistrationTestWithDDTAND_DataProvider@6a41eaa2]" name="userCanRegisterSuccessfully" duration-ms="3639" started-at="2019-02-26T10:57:57Z" data-provider="testData" finished-at="2019-02-26T10:58:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[amr291910223@gm.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[amr123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userCanRegisterSuccessfully -->
+        <test-method status="PASS" signature="userCanRegisterSuccessfully(java.lang.String, java.lang.String)[pri:1, instance:tests.DDT.UserRegistrationTestWithDDTAND_DataProvider@6a41eaa2]" name="userCanRegisterSuccessfully" duration-ms="4015" started-at="2019-02-26T10:58:01Z" data-provider="testData" finished-at="2019-02-26T10:58:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[amr010491002@gm.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[amr123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userCanRegisterSuccessfully -->
+        <test-method status="PASS" signature="test(org.testng.ITestResult)[pri:0, instance:tests.DDT.UserRegistrationTestWithDDTAND_DataProvider@6a41eaa2]" name="test" is-config="true" duration-ms="0" started-at="2019-02-26T10:58:01Z" finished-at="2019-02-26T10:58:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=userCanRegisterSuccessfully status=SUCCESS method=UserRegistrationTestWithDDTAND_DataProvider.userCanRegisterSuccessfully(java.lang.String, java.lang.String)[pri:1, instance:tests.DDT.UserRegistrationTestWithDDTAND_DataProvider@6a41eaa2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(org.testng.ITestResult)[pri:0, instance:tests.DDT.UserRegistrationTestWithDDTAND_DataProvider@6a41eaa2]" name="test" is-config="true" duration-ms="1" started-at="2019-02-26T10:58:05Z" finished-at="2019-02-26T10:58:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=userCanRegisterSuccessfully status=SUCCESS method=UserRegistrationTestWithDDTAND_DataProvider.userCanRegisterSuccessfully(java.lang.String, java.lang.String)[pri:1, instance:tests.DDT.UserRegistrationTestWithDDTAND_DataProvider@6a41eaa2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="userCanRegisterSuccessfully(java.lang.String, java.lang.String)[pri:1, instance:tests.DDT.UserRegistrationTestWithDDTAND_DataProvider@6a41eaa2]" name="userCanRegisterSuccessfully" duration-ms="3261" started-at="2019-02-26T10:58:05Z" data-provider="testData" finished-at="2019-02-26T10:58:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[amr21910923@gm.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[amr123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userCanRegisterSuccessfully -->
+        <test-method status="PASS" signature="test(org.testng.ITestResult)[pri:0, instance:tests.DDT.UserRegistrationTestWithDDTAND_DataProvider@6a41eaa2]" name="test" is-config="true" duration-ms="1" started-at="2019-02-26T10:58:08Z" finished-at="2019-02-26T10:58:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=userCanRegisterSuccessfully status=SUCCESS method=UserRegistrationTestWithDDTAND_DataProvider.userCanRegisterSuccessfully(java.lang.String, java.lang.String)[pri:1, instance:tests.DDT.UserRegistrationTestWithDDTAND_DataProvider@6a41eaa2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="userCanRegisterSuccessfully(java.lang.String, java.lang.String)[pri:1, instance:tests.DDT.UserRegistrationTestWithDDTAND_DataProvider@6a41eaa2]" name="userCanRegisterSuccessfully" duration-ms="3383" started-at="2019-02-26T10:58:08Z" data-provider="testData" finished-at="2019-02-26T10:58:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[amr22190292@gm.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[amr123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userCanRegisterSuccessfully -->
+        <test-method status="PASS" signature="userCanRegisterSuccessfully(java.lang.String, java.lang.String)[pri:1, instance:tests.DDT.UserRegistrationTestWithDDTAND_DataProvider@6a41eaa2]" name="userCanRegisterSuccessfully" duration-ms="3680" started-at="2019-02-26T10:58:11Z" data-provider="testData" finished-at="2019-02-26T10:58:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[amr291102293@gm.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[amr123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userCanRegisterSuccessfully -->
+        <test-method status="PASS" signature="test(org.testng.ITestResult)[pri:0, instance:tests.DDT.UserRegistrationTestWithDDTAND_DataProvider@6a41eaa2]" name="test" is-config="true" duration-ms="0" started-at="2019-02-26T10:58:11Z" finished-at="2019-02-26T10:58:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=userCanRegisterSuccessfully status=SUCCESS method=UserRegistrationTestWithDDTAND_DataProvider.userCanRegisterSuccessfully(java.lang.String, java.lang.String)[pri:1, instance:tests.DDT.UserRegistrationTestWithDDTAND_DataProvider@6a41eaa2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(org.testng.ITestResult)[pri:0, instance:tests.DDT.UserRegistrationTestWithDDTAND_DataProvider@6a41eaa2]" name="test" is-config="true" duration-ms="0" started-at="2019-02-26T10:58:15Z" finished-at="2019-02-26T10:58:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=userCanRegisterSuccessfully status=SUCCESS method=UserRegistrationTestWithDDTAND_DataProvider.userCanRegisterSuccessfully(java.lang.String, java.lang.String)[pri:1, instance:tests.DDT.UserRegistrationTestWithDDTAND_DataProvider@6a41eaa2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="userCanRegisterSuccessfully(java.lang.String, java.lang.String)[pri:1, instance:tests.DDT.UserRegistrationTestWithDDTAND_DataProvider@6a41eaa2]" name="userCanRegisterSuccessfully" duration-ms="3869" started-at="2019-02-26T10:58:15Z" data-provider="testData" finished-at="2019-02-26T10:58:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[amr010410029@gm.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[amr123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userCanRegisterSuccessfully -->
+        <test-method status="PASS" signature="test(org.testng.ITestResult)[pri:0, instance:tests.DDT.UserRegistrationTestWithDDTAND_DataProvider@6a41eaa2]" name="test" is-config="true" duration-ms="1" started-at="2019-02-26T10:58:19Z" finished-at="2019-02-26T10:58:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=userCanRegisterSuccessfully status=SUCCESS method=UserRegistrationTestWithDDTAND_DataProvider.userCanRegisterSuccessfully(java.lang.String, java.lang.String)[pri:1, instance:tests.DDT.UserRegistrationTestWithDDTAND_DataProvider@6a41eaa2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="userCanRegisterSuccessfully(java.lang.String, java.lang.String)[pri:1, instance:tests.DDT.UserRegistrationTestWithDDTAND_DataProvider@6a41eaa2]" name="userCanRegisterSuccessfully" duration-ms="4040" started-at="2019-02-26T10:58:19Z" data-provider="testData" finished-at="2019-02-26T10:58:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[amr82191023@gm.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[amr123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userCanRegisterSuccessfully -->
+        <test-method status="PASS" signature="test(org.testng.ITestResult)[pri:0, instance:tests.DDT.UserRegistrationTestWithDDTAND_DataProvider@6a41eaa2]" name="test" is-config="true" duration-ms="0" started-at="2019-02-26T10:58:23Z" finished-at="2019-02-26T10:58:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=userCanRegisterSuccessfully status=SUCCESS method=UserRegistrationTestWithDDTAND_DataProvider.userCanRegisterSuccessfully(java.lang.String, java.lang.String)[pri:1, instance:tests.DDT.UserRegistrationTestWithDDTAND_DataProvider@6a41eaa2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="userCanRegisterSuccessfully(java.lang.String, java.lang.String)[pri:1, instance:tests.DDT.UserRegistrationTestWithDDTAND_DataProvider@6a41eaa2]" name="userCanRegisterSuccessfully" duration-ms="3462" started-at="2019-02-26T10:58:23Z" data-provider="testData" finished-at="2019-02-26T10:58:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[amr28219022@gm.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[amr123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userCanRegisterSuccessfully -->
+        <test-method status="PASS" signature="userCanRegisterSuccessfully(java.lang.String, java.lang.String)[pri:1, instance:tests.DDT.UserRegistrationTestWithDDTAND_DataProvider@6a41eaa2]" name="userCanRegisterSuccessfully" duration-ms="3356" started-at="2019-02-26T10:58:26Z" data-provider="testData" finished-at="2019-02-26T10:58:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[amr298110223@gm.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[amr123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userCanRegisterSuccessfully -->
+        <test-method status="PASS" signature="test(org.testng.ITestResult)[pri:0, instance:tests.DDT.UserRegistrationTestWithDDTAND_DataProvider@6a41eaa2]" name="test" is-config="true" duration-ms="0" started-at="2019-02-26T10:58:26Z" finished-at="2019-02-26T10:58:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=userCanRegisterSuccessfully status=SUCCESS method=UserRegistrationTestWithDDTAND_DataProvider.userCanRegisterSuccessfully(java.lang.String, java.lang.String)[pri:1, instance:tests.DDT.UserRegistrationTestWithDDTAND_DataProvider@6a41eaa2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="userCanRegisterSuccessfully(java.lang.String, java.lang.String)[pri:1, instance:tests.DDT.UserRegistrationTestWithDDTAND_DataProvider@6a41eaa2]" name="userCanRegisterSuccessfully" duration-ms="4356" started-at="2019-02-26T10:58:30Z" data-provider="testData" finished-at="2019-02-26T10:58:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[amr081041002@gm.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[amr123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userCanRegisterSuccessfully -->
+        <test-method status="PASS" signature="test(org.testng.ITestResult)[pri:0, instance:tests.DDT.UserRegistrationTestWithDDTAND_DataProvider@6a41eaa2]" name="test" is-config="true" duration-ms="0" started-at="2019-02-26T10:58:30Z" finished-at="2019-02-26T10:58:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=userCanRegisterSuccessfully status=SUCCESS method=UserRegistrationTestWithDDTAND_DataProvider.userCanRegisterSuccessfully(java.lang.String, java.lang.String)[pri:1, instance:tests.DDT.UserRegistrationTestWithDDTAND_DataProvider@6a41eaa2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(org.testng.ITestResult)[pri:0, instance:tests.DDT.UserRegistrationTestWithDDTAND_DataProvider@6a41eaa2]" name="test" is-config="true" duration-ms="1" started-at="2019-02-26T10:58:34Z" finished-at="2019-02-26T10:58:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=userCanRegisterSuccessfully status=SUCCESS method=UserRegistrationTestWithDDTAND_DataProvider.userCanRegisterSuccessfully(java.lang.String, java.lang.String)[pri:1, instance:tests.DDT.UserRegistrationTestWithDDTAND_DataProvider@6a41eaa2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="userCanRegisterSuccessfully(java.lang.String, java.lang.String)[pri:1, instance:tests.DDT.UserRegistrationTestWithDDTAND_DataProvider@6a41eaa2]" name="userCanRegisterSuccessfully" duration-ms="5959" started-at="2019-02-26T10:58:34Z" data-provider="testData" finished-at="2019-02-26T10:58:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[amr21891023@gm.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[amr123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userCanRegisterSuccessfully -->
+        <test-method status="PASS" signature="test(org.testng.ITestResult)[pri:0, instance:tests.DDT.UserRegistrationTestWithDDTAND_DataProvider@6a41eaa2]" name="test" is-config="true" duration-ms="0" started-at="2019-02-26T10:58:40Z" finished-at="2019-02-26T10:58:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=userCanRegisterSuccessfully status=SUCCESS method=UserRegistrationTestWithDDTAND_DataProvider.userCanRegisterSuccessfully(java.lang.String, java.lang.String)[pri:1, instance:tests.DDT.UserRegistrationTestWithDDTAND_DataProvider@6a41eaa2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="userCanRegisterSuccessfully(java.lang.String, java.lang.String)[pri:1, instance:tests.DDT.UserRegistrationTestWithDDTAND_DataProvider@6a41eaa2]" name="userCanRegisterSuccessfully" duration-ms="3466" started-at="2019-02-26T10:58:40Z" data-provider="testData" finished-at="2019-02-26T10:58:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[amr22189022@gm.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[amr123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userCanRegisterSuccessfully -->
+        <test-method status="PASS" signature="test(org.testng.ITestResult)[pri:0, instance:tests.DDT.UserRegistrationTestWithDDTAND_DataProvider@6a41eaa2]" name="test" is-config="true" duration-ms="0" started-at="2019-02-26T10:58:44Z" finished-at="2019-02-26T10:58:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=userCanRegisterSuccessfully status=SUCCESS method=UserRegistrationTestWithDDTAND_DataProvider.userCanRegisterSuccessfully(java.lang.String, java.lang.String)[pri:1, instance:tests.DDT.UserRegistrationTestWithDDTAND_DataProvider@6a41eaa2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="userCanRegisterSuccessfully(java.lang.String, java.lang.String)[pri:1, instance:tests.DDT.UserRegistrationTestWithDDTAND_DataProvider@6a41eaa2]" name="userCanRegisterSuccessfully" duration-ms="3612" started-at="2019-02-26T10:58:44Z" data-provider="testData" finished-at="2019-02-26T10:58:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[amr291180223@gm.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[amr123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userCanRegisterSuccessfully -->
+        <test-method status="PASS" signature="test(org.testng.ITestResult)[pri:0, instance:tests.DDT.UserRegistrationTestWithDDTAND_DataProvider@6a41eaa2]" name="test" is-config="true" duration-ms="0" started-at="2019-02-26T10:58:47Z" finished-at="2019-02-26T10:58:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=userCanRegisterSuccessfully status=SUCCESS method=UserRegistrationTestWithDDTAND_DataProvider.userCanRegisterSuccessfully(java.lang.String, java.lang.String)[pri:1, instance:tests.DDT.UserRegistrationTestWithDDTAND_DataProvider@6a41eaa2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="closedriver()[pri:0, instance:tests.DDT.UserRegistrationTestWithDDTAND_DataProvider@6a41eaa2]" name="closedriver" is-config="true" duration-ms="626" started-at="2019-02-26T10:58:47Z" finished-at="2019-02-26T10:58:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedriver -->
+      </class> <!-- tests.DDT.UserRegistrationTestWithDDTAND_DataProvider -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

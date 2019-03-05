@@ -14,7 +14,7 @@ public class UserRegistrationTestWithDDTAND_DataProvider extends TestBase  {
 
 	String email="amr0111@gm.com";
 	String pass="amr123";
-    static String str="t04";
+    static String str="t05";
 
 	@DataProvider(name="testData")
 	public static Object [][] data(){

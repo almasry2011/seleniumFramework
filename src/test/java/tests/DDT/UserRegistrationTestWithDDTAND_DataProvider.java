@@ -14,35 +14,33 @@ public class UserRegistrationTestWithDDTAND_DataProvider extends TestBase  {
 
 	String email="amr0111@gm.com";
 	String pass="amr123";
-
+    static String str="t03";
 
 	@DataProvider(name="testData")
 	public static Object [][] data(){
 
 		return new Object[][] {
 
-			{"amr901041002@gm.com","amr123"},
-			{"amr29191023@gm.com","amr123"}  ,
-			{"amr22919022@gm.com","amr123"},
-			{"amr291910223@gm.com","amr123"},
+			{"amr911"+str+"041002@gm.com","amr123"},
+			{"amr2911"+str+"1023@gm.com","amr123"}  ,
+			{"amr12"+str+"919022@gm.com","amr123"},
+			{"amr211"+str+"910223@gm.com","amr123"},
 			
 			
-			{"amr010491002@gm.com","amr123"},
-			{"amr21910923@gm.com","amr123"}  ,
-			{"amr22190292@gm.com","amr123"},
-			{"amr291102293@gm.com","amr123"},
+			{"amr010"+str+"411012@gm.com","amr123"},
+			{"amr2191012"+str+"3@gm.com","amr123"}  ,
+			{"amr2219"+str+ "02912@gm.com","amr123"},
+			{"amr2911"+str+ "102293@gm.com","amr123"},
 			
 			
-			
-			{"amr010410029@gm.com","amr123"},
-			{"amr82191023@gm.com","amr123"}  ,
-			{"amr28219022@gm.com","amr123"},
-			{"amr298110223@gm.com","amr123"},
-			
-			{"amr081041002@gm.com","amr123"},
-			{"amr21891023@gm.com","amr123"}  ,
-			{"amr22189022@gm.com","amr123"},
-			{"amr291180223@gm.com","amr123"}
+			{"amr2295511"+str+ "102293@gm.com","amr123"},
+			{"amr225911"+str+ "102293@gm.com","amr123"},
+			{"amr252911"+str+ "102293@gm.com","amr123"},
+			{"amr22911"+str+ "102293@gm.com","amr123"},
+			{"amr229511"+str+ "102293@gm.com","amr123"},
+			{"amr229115"+str+ "102293@gm.com","amr123"},
+			{"amr22511"+str+ "102293@gm.com","amr123"} 
+			 
 			
 
 		};

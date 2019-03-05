@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [nopcommerce Regression suite]">
-  <parameter name="browser" value="firefox"/>
+  <parameter name="browser" value="chrome"/>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="tests.UserRegistrationTest">
+      <class name="tests.DDT.UserRegistrationTestWithDDTAND_DataProvider">
         <methods>
           <include name="startDriver"/>
           <include name="closedriver"/>
-          <include name="userCanRegisterSuccessfully"/>
+          <include name="test"/>
+          <include name="userCanRegisterSuccessfully" invocation-numbers="15"/>
         </methods>
-      </class> <!-- tests.UserRegistrationTest -->
+      </class> <!-- tests.DDT.UserRegistrationTestWithDDTAND_DataProvider -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [nopcommerce Regression suite] -->

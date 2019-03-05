@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test thread-count="5" verbose="0" name="Command line test(failed)">
+    <classes>
+      <class name="tests.WishListTest">
+        <methods>
+          <include name="startDriver"/>
+          <include name="closedriver"/>
+          <include name="test"/>
+          <include name="testWishList"/>
+        </methods>
+      </class> <!-- tests.WishListTest -->
+      <class name="tests.EmailFrindTest">
+        <methods>
+          <include name="startDriver"/>
+          <include name="init"/>
+          <include name="closedriver"/>
+          <include name="Search"/>
+          <include name="test"/>
+          <include name="userCanRegister"/>
+          <include name="EmailFrind"/>
+        </methods>
+      </class> <!-- tests.EmailFrindTest -->
+      <class name="tests.Chane_CurrencyTest">
+        <methods>
+          <include name="startDriver"/>
+          <include name="closedriver"/>
+          <include name="test"/>
+          <include name="TestChangeCurrency"/>
+        </methods>
+      </class> <!-- tests.Chane_CurrencyTest -->
+      <class name="tests.UserRegistrationTest">
+        <methods>
+          <include name="startDriver"/>
+          <include name="registerdUserCanLogin"/>
+          <include name="closedriver"/>
+          <include name="test"/>
+          <include name="userCanLogout"/>
+          <include name="userCanRegisterSuccessfully"/>
+        </methods>
+      </class> <!-- tests.UserRegistrationTest -->
+      <class name="tests.ProductHoverMenuTest">
+        <methods>
+          <include name="startDriver"/>
+          <include name="closedriver"/>
+          <include name="test"/>
+          <include name="TestHover"/>
+        </methods>
+      </class> <!-- tests.ProductHoverMenuTest -->
+      <class name="tests.AddTOcomparelist_Test">
+        <methods>
+          <include name="startDriver"/>
+          <include name="closedriver"/>
+          <include name="test"/>
+          <include name="TestCompare"/>
+          <include name="testWishList"/>
+        </methods>
+      </class> <!-- tests.AddTOcomparelist_Test -->
+      <class name="tests.LoginTest">
+        <methods>
+          <include name="startDriver"/>
+          <include name="closedriver"/>
+          <include name="test"/>
+          <include name="testLogin"/>
+        </methods>
+      </class> <!-- tests.LoginTest -->
+      <class name="tests.ContactUsTest">
+        <methods>
+          <include name="startDriver"/>
+          <include name="closedriver"/>
+          <include name="test"/>
+          <include name="userCanUseContactUS"/>
+        </methods>
+      </class> <!-- tests.ContactUsTest -->
+      <class name="tests.AddProductReviewTest">
+        <methods>
+          <include name="startDriver"/>
+          <include name="closedriver"/>
+          <include name="test"/>
+          <include name="testProduct"/>
+        </methods>
+      </class> <!-- tests.AddProductReviewTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

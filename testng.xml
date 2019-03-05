@@ -5,7 +5,9 @@
 
   <test name="Test">
     <classes>
-      <class name="tests.UserRegistrationTest"/>
+       
+      <class name="tests.DDT.UserRegistrationTestWithDDTAND_DataProvider"> </class>
+      
     </classes>
   </test> 
 </suite>  
